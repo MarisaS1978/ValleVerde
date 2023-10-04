@@ -430,6 +430,8 @@ form,
     border-radius: 30px;
     margin-left: 300px;
     padding: 30px;
+    align-items: center;
+    justify-content: center;
 
 
 }
