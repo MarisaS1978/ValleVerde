@@ -1,4 +1,9 @@
-let cad = `
+
+
+
+
+
+let cab = `
 <nav class="navbar">
             <div class="brand-title">
                 <img id="logo" src="./imagenes/logo venta de plantas y macetas sencillo verde.jpg"
@@ -24,9 +29,9 @@ let cad = `
             </div>
         </nav>
 `
-document.querySelector("header").innerHTML= cad;
+document.querySelector("header").innerHTML= cab;
 
-cad=` 
+pie=` 
 <h3 class="animate__zoomIn">¡Seguinos en nuestras redes sociales!</h3>
 <br>
 <div id="redes">
@@ -42,4 +47,5 @@ cad=`
 <br><br>
 
 <p>©Sitio desarrollado bajo licencia de <strong>Vivero Valle Verde</strong></p> `
-document.querySelector("footer").innerHTML=cad
+document.querySelector("footer").innerHTML=pie
+
