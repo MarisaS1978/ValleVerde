@@ -423,7 +423,7 @@ form,
 /*TIENDA*/
 .tienda {
     text-align: center;
-    font-size: larger;
+    font-size: 2rem;
     color: #607123;
     background-color: rgba(205, 228, 169, 0.6);
     width: 500px;
@@ -432,15 +432,33 @@ form,
     padding: 30px;
     align-items: center;
     justify-content: center;
-
+    border: 5px solid #607123;
 
 }
 
-#gif {
-    width: 400px;
-    height: 400px;
+
+.tarjeta{
+    width: 300px;
+    border: 5px solid #607123;
+    background-color: #cde4a9;
+    margin: 30px;
+    padding: 20px;
+    color: #0c3a0c;
+    
+}
+#planta{
+    width: 100%;
+    height: 200px;
+    
+    
 }
 
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
 
 /*RESPONSIVO PARA EL HOME*/
 

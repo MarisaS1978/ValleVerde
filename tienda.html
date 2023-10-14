@@ -22,16 +22,35 @@
          
         </header>
     <main>
-        <div class="tienda">
-            <h2>Tienda Online</h2>
-            <p>Algo nuevo se está sembrando</p>
-            <img id="gif" src="./imagenes/JardineraRegando.gif" alt="Jardinera regando una maceta">
+       
+        <h2 class="tienda">Tienda Online</h2>
+            
+        <div id="app">
+
+            <div class="tarjeta" v-for="elemento in datos">
+                <h2>{{elemento.nombre}}</h2>
+                <br>
+                <P>{{elemento.tipo}}</P>
+                <p>Descipción: {{elemento.descripcion}}</p>
+                
+                <p>Cuidados: {{elemento.cuidados}}</p>
+                <br><br>
+
+                <img id="planta" v-bind:src="elemento.foto" :alt="elemento.nombre">
+            </div>
+    
+    
         </div>
+    
     </main>
     <footer>
 
          
     </footer>
+    
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/tienda.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
