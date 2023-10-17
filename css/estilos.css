@@ -322,6 +322,10 @@ form,
     font-family: 'Fugaz One', cursive;
 }
 
+#validar_nombre, #validar_apellido, #validar_zipcode, #validar_telefono, #validar_email{
+    color:#3e5586;
+}
+
 /*Servicios*/
 .interior,
 .exterior,

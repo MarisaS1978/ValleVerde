@@ -14,6 +14,7 @@
             href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300&family=Fugaz+One&family=Handlee&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="./js/validar.js"></script>
     </head>
     
     <body>
@@ -23,33 +24,38 @@
         </header>
     <main>
         <h2 id="contacto">Contacto</h2>
-        <form>
+        <form onsubmit="return validar();">
            
                 
                 <label for="firstname">Nombre: </label>
-                <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre...">
+                <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre..." id="firstname" value="">
+                <div id="validar_nombre" ></div>
                 <label for="lastname">Apellido:</label>
-                <input size="30" type="text" name="lastname" placeholder="Ingrese su apellido...">
+                <input size="30" type="text" name="lastname" placeholder="Ingrese su apellido..." id="lastname" value="">
+                <div id="validar_apellido" ></div>
                 <br><br>
                 <label for="street">Dirección:</label>
-                <input type="text" name="address" placeholder="Ingrese su dirección...">
+                <input type="text" name="address" placeholder="Ingrese su dirección..." id="street" value="">
                 <label for="city">Ciudad: </label>
-                <input type="text" name="city" placeholder="Ingrese su ciudad...">
+                <input type="text" name="city" placeholder="Ingrese su ciudad..." id="city" value="">
                 <br><br>
                 <label for="zipcode">Código Postal:</label>
-                <input type="text" name="zipcode" placeholder="Ingrese su codigo postal...">
+                <input type="text" name="zipcode" placeholder="Ingrese su codigo postal..." id="zipcode" value="">
+                <div id="validar_zipcode" ></div>
                 <br><br>
                 <label for="telefono">Teléfono: </label>
-                <input type="tel" name="telefono" placeholder="Ingrese su telefono....">
+                <input type="tel" name="telefono" placeholder="Ingrese su telefono...." id="telefono" value="">
+                <div id="validar_telefono" ></div>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Ingrese su email...">
+                <input type="email" name="email" id="email" placeholder="Ingrese su email..." id="email" value="">
+                <div id="validar_email" ></div>
                 <br><br>
                 
     
             <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="5" cols="30"></textarea>
             <br><br>
             
-            <button id="submit" type="submit">Enviar</button>
+            <button id="submit" type="submit" value="Enviar">Enviar</button>
             <button id="reset"  type="reset">Borrar</button>
         </form>
     </main>
@@ -57,5 +63,6 @@
 
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/validar.js"></script>
 </body>
 </html>
