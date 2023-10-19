@@ -9,4 +9,4 @@ Consumo de API en la sección "Tienda Online" mediante la creación de un json p
 Validación de formulario de contacto en la sección "Contacto".
 
 
-Integrantes: Alejandra Martinez, Florencia Nieto y Marisa Sandroni
+Integrantes: Alejandra Martinez Losardo y Marisa Sandroni
