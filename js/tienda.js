@@ -1,4 +1,4 @@
-const { createApp } = Vue
+const { createApp } = Vue;
 
 createApp({
     data() {
@@ -6,22 +6,36 @@ createApp({
             error: false,
             url: "./js/plantas.json",
             datos: {},
-
-        }
+            carrito: {}, // Cambiamos carrito de un array a un objeto
+        };
     },
     methods: {
         fetchData(url) {
             fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    console.log(data)
-                    this.datos = data.plantas
+                .then((response) => response.json())
+                .then((data) => {
+                    console.log(data);
+                    this.datos = data.plantas;
                 });
-        }
-
+        },
+        agregarAlCarrito(item) {
+            if (this.carrito[item.id]) {
+                this.carrito[item.id].cantidad += 1;
+            } else {
+                item.cantidad = 1;
+                this.carrito[item.id] = item;
+            }
+        },
+        vaciarCarrito() {
+            this.carrito = {};
+        },
     },
-    created() { 
-        this.fetchData(this.url)
-    }
-
-}).mount('#app')
+    computed: {
+        calcularMontoTotal() {
+            return Object.values(this.carrito).reduce((total, item) => total + item.precio * item.cantidad, 0);
+        },
+    },
+    created() {
+        this.fetchData(this.url);
+    },
+}).mount("#app");

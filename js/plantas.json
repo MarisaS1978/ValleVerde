@@ -1,94 +1,137 @@
 {
     "plantas": [
         {
+            "id":1,
             "nombre": "Rosa",
             "tipo": "Flor",
             "descripcion": "La rosa es conocida por su belleza y fragancia. Es una planta ornamental muy popular en jardinería.",
             "color": "Varios colores",
             "altura": "0.5 - 2 metros",
             "cuidados": "Riego regular y poda anual para mantener su forma.",
-            "foto": "./imagenes/JSON/rosa.jpg"
+            "foto": "./imagenes/JSON/rosa.jpg",
+            "precio": 1500
         },
         {
+            "id":2,
             "nombre": "Tomate",
             "tipo": "Hortaliza",
             "descripcion": "El tomate es una planta comestible que produce frutos rojos y jugosos. Es ampliamente utilizado en la cocina.",
             "color": "Rojo",
             "altura": "0.5 - 2 metros",
             "cuidados": "Riego regular y apoyo para los tallos a medida que crecen.",
-            "foto": "./imagenes/JSON/tomate.jpg"
+            "foto": "./imagenes/JSON/tomate.jpg",
+            "precio": 150
         },
         {
+            "id":3,
             "nombre": "Lavanda",
             "tipo": "Hierba aromática",
             "descripcion": "La lavanda es una planta aromática que produce flores lilas y se utiliza en perfumería y aromaterapia.",
             "color": "Lila",
             "altura": "0.3 - 0.6 metros",
             "cuidados": "Requiere suelo bien drenado y pleno sol. Poda después de la floración.",
-            "foto": "./imagenes/JSON/lavanda.jpg"
+            "foto": "./imagenes/JSON/lavanda.jpg",
+            "precio": 500
         },
         {
+            "id":4,
             "nombre": "Cactus",
             "tipo": "Suculenta",
             "descripcion": "Los cactus son plantas suculentas que almacenan agua en sus tallos y son ideales para entornos áridos.",
             "color": "Verde, algunas variedades florecen en varios colores.",
             "altura": "Varía según la especie",
             "cuidados": "Poca agua y luz solar directa.",
-            "foto": "./imagenes/JSON/variedades-cactus.jpg"
+            "foto": "./imagenes/JSON/variedades-cactus.jpg",
+            "precio": 500
         },
         {
+            "id":5,
             "nombre": "Orquídea",
             "tipo": "Flor",
             "descripcion": "Las orquídeas son conocidas por su elegancia y se encuentran en una amplia variedad de colores y formas.",
             "color": "Varía según la especie",
             "altura": "Varía según la especie",
             "cuidados": "Riego moderado y luz indirecta.",
-            "foto": "./imagenes/JSON/orquideas.jpg"
+            "foto": "./imagenes/JSON/orquideas.jpg",
+            "precio": 5000
         },
         {
+            "id":6,
             "nombre": "Pino",
             "tipo": "Árbol",
             "descripcion": "El pino es un árbol de hoja perenne que se utiliza en la industria maderera y en la jardinería.",
             "color": "Verde",
             "altura": "Varía según la especie",
             "cuidados": "Necesita suelo bien drenado y riego regular durante su crecimiento inicial.",
-            "foto": "./imagenes/JSON/pino.jpg"
+            "foto": "./imagenes/JSON/pino.jpg",
+            "precio": 2500
         },
         {
+            "id":7,
             "nombre": "Suculenta de Jade",
             "tipo": "Suculenta",
             "descripcion": "La suculenta de jade es apreciada por su aspecto escultural y su facilidad de cuidado.",
             "color": "Verde",
             "altura": "0.3 - 0.6 metros",
             "cuidados": "Riego ocasional y luz solar indirecta.",
-            "foto": "./imagenes/JSON/Jade.jpeg"
+            "foto": "./imagenes/JSON/Jade.jpeg",
+            "precio": 1000
         },
         {
+            "id":8,
             "nombre": "Tulipán",
             "tipo": "Flor",
             "descripcion": "Los tulipanes son flores bulbosas que vienen en una variedad de colores y son populares en jardines y arreglos florales.",
             "color": "Varía según la variedad",
             "altura": "0.3 - 0.6 metros",
             "cuidados": "Requiere riego regular durante su crecimiento y floración.",
-            "foto": "./imagenes/JSON/tulipan.jpg"
+            "foto": "./imagenes/JSON/tulipan.jpg",
+            "precio": 1500
         },
         {
+            "id":9,
             "nombre": "Cala",
             "tipo": "Flor",
             "descripcion": "La cala es conocida por sus llamativas flores en forma de copa y se utiliza en arreglos florales.",
             "color": "Blanco",
             "altura": "0.6 - 1 metro",
             "cuidados": "Requiere suelo húmedo y luz parcial.",
-            "foto": "./imagenes/JSON/calas.jpg"
+            "foto": "./imagenes/JSON/calas.jpg",
+            "precio": 1500
         },
         {
+            "id":10,
             "nombre": "Bambú",
             "tipo": "Planta ornamental",
             "descripcion": "El bambú es una planta de crecimiento rápido y se utiliza en la jardinería y la construcción de muebles.",
             "color": "Verde",
             "altura": "Varía según la especie",
             "cuidados": "Requiere suelo fértil y riego regular para un buen crecimiento.",
-            "foto": "./imagenes/JSON/bambu.jpg"
-        }
+            "foto": "./imagenes/JSON/bambu.jpg",
+            "precio": 1500
+        },
+        {
+            "id":11,
+            "nombre": "Azalea",
+            "tipo": "Arbusto",
+            "descripcion": "Las azaleas son arbustos ornamentales conocidos por sus flores coloridas y su follaje perenne.",
+            "color": "Varía según la variedad",
+            "altura": "0.6 - 1.5 metros",
+            "cuidados": "Necesitan suelo ácido, riego regular y sombra parcial para un óptimo crecimiento.",
+            "foto":"./imagenes/JSON/azalea.jpg",
+            "precio": 1200
+
+          },
+          {
+            "id":12,
+            "nombre": "Helecho",
+            "tipo": "Planta de interior",
+            "descripcion": "Los helechos son plantas de interior populares que añaden un toque de verde a los espacios interiores.",
+            "color": "Verde",
+            "altura": "0.3 - 1 metro",
+            "cuidados": "Requiere sombra parcial y alta humedad. Mantener el sustrato húmedo.",
+            "foto":"./imagenes/JSON/helecho.jpg",
+            "precio": 3500
+          }
     ]
 }

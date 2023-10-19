@@ -29,15 +29,35 @@
 
             <div class="tarjeta" v-for="elemento in datos">
                 <h2>{{elemento.nombre}}</h2>
-                <br>
-                <P>{{elemento.tipo}}</P>
-                <p>Descipción: {{elemento.descripcion}}</p>
                 
+                <P>{{elemento.tipo}}</P>
+                <br>
+                <p> {{elemento.descripcion}}</p>
+                <br>
                 <p>Cuidados: {{elemento.cuidados}}</p>
                 <br><br>
-
                 <img id="planta" v-bind:src="elemento.foto" :alt="elemento.nombre">
+                <br><br>
+                <p>Precio: ${{elemento.precio}}</p>
+                <br>
+                <button @click="agregarAlCarrito(elemento)">Agregar al carrito</button>
+
+                
             </div>
+            <div id="carrito">
+                <h2>Carrito    <i class="fa-solid fa-cart-shopping"></i></h2>
+                <br>
+                <ul>
+                    <li v-for="item in carrito">
+                        {{ item.nombre }} - Precio: ${{ item.precio }} - Cantidad: {{ item.cantidad }}
+                    </li>
+                </ul>
+                <br>
+                <p>Total: ${{ calcularMontoTotal }}</p>
+                <br><br>
+                <button @click="vaciarCarrito">Vaciar Carrito</button>
+            </div>
+            
     
     
         </div>

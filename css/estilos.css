@@ -8,8 +8,6 @@ font-family: 'Handlee', cursive;*/
 #cbe552
 #95b54c
 #607123
-#EE9B01
-#DA6A00
 #0c3a0c
 */
 
@@ -305,6 +303,7 @@ button {
     border-radius: 10px;
     font-size: 1rem;
     font-family: 'Fugaz One', cursive;
+    color:#fff;
 
 }
 
@@ -444,10 +443,12 @@ form,
 .tarjeta{
     width: 300px;
     border: 5px solid #607123;
+    border-radius: 10px;
     background-color: #cde4a9;
     margin: 30px;
     padding: 20px;
     color: #0c3a0c;
+    object-fit: fill;
     
 }
 #planta{
@@ -461,9 +462,27 @@ form,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-family: 'Fugaz One', cursive;
+    font-size: 1rem;
+    text-align: center;
     
 }
 
+#carrito{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #cde4a9;
+    margin: 50px;
+    padding:20px;
+    font-size: 1rem;
+    color: #607123;
+    border-radius: 10px;
+    list-style-type: none;
+    font-family: 'Fugaz One', cursive;
+
+
+}
 /*RESPONSIVO PARA EL HOME*/
 
 @media screen and (max-width: 576px) {

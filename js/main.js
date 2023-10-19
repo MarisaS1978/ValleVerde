@@ -17,7 +17,7 @@ let cab = `
 
             <div class="navbar-links">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="quienessomos.html">Quienes Somos</a></li>
                     <li><a href="sucursales.html">Sucursales</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
