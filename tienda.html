@@ -41,7 +41,7 @@
                 <p>Precio: ${{elemento.precio}}</p>
                 <br>
                 <button @click="agregarAlCarrito(elemento)">Agregar al carrito</button>
-
+                
                 
             </div>
             <div id="carrito">
@@ -56,6 +56,8 @@
                 <p>Total: ${{ calcularMontoTotal }}</p>
                 <br><br>
                 <button @click="vaciarCarrito">Vaciar Carrito</button>
+                <br>
+                <button @click="realizarPago">Pagar</button> 
             </div>
             
     

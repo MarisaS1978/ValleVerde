@@ -29,6 +29,9 @@ createApp({
         vaciarCarrito() {
             this.carrito = {};
         },
+        realizarPago() {
+            alert("Pago realizado con éxito"); 
+        },
     },
     computed: {
         calcularMontoTotal() {
