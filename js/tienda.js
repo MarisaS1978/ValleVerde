@@ -6,7 +6,7 @@ createApp({
             error: false,
             url: "./js/plantas.json",
             datos: {},
-            carrito: {}, // Cambiamos carrito de un array a un objeto
+            carrito: {}, 
         };
     },
     methods: {
@@ -25,6 +25,7 @@ createApp({
                 item.cantidad = 1;
                 this.carrito[item.id] = item;
             }
+            
         },
         vaciarCarrito() {
             this.carrito = {};

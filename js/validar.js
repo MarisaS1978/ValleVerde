@@ -24,14 +24,14 @@ function validar() {
       apellido.focus();
     }
     
-    if (zipcode.value.length < 5) {
+    if (zipcode.value.length < 4) {
       document.getElementById("validar_zipcode").innerHTML = "Debe completar el código postal con al menos 4 carácteres.";
       error = true;
       zipcode.focus();
     }
     
     if (telefono.value.length < 10) {
-      document.getElementById("validar_telefono").innerHTML = "Debe completar el teléfono con al menos 10 carácteres y sin el 0 inicial.";
+      document.getElementById("validar_telefono").innerHTML = "Debe completar el teléfono con al menos 10 carácteres y la característica correspondiente";
       error = true;
       telefono.focus();
     }
