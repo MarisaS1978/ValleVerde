@@ -1,8 +1,3 @@
-
-
-
-
-
 let cab = `
 <nav class="navbar">
             <div class="brand-title">

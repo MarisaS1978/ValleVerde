@@ -6,6 +6,7 @@ function validar() {
     let email = document.getElementById("email");
     let validEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
     let error = false;
+
     document.getElementById("validar_nombre").innerHTML = "";
     document.getElementById("validar_apellido").innerHTML = "";
     document.getElementById("validar_zipcode").innerHTML = "";
@@ -31,7 +32,7 @@ function validar() {
     }
     
     if (telefono.value.length < 10) {
-      document.getElementById("validar_telefono").innerHTML = "Debe completar el teléfono con al menos 10 carácteres y la característica correspondiente";
+      document.getElementById("validar_telefono").innerHTML = "Debe completar el teléfono con al menos 10 números y la característica correspondiente";
       error = true;
       telefono.focus();
     }

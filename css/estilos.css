@@ -23,7 +23,7 @@ font-family: 'Handlee', cursive;*/
     justify-content: space-evenly;
     align-items: center;
     background-image: url(../imagenes/Marco\ Hojas\ UpDown.jpeg);
-   
+
 
 }
 
@@ -69,12 +69,9 @@ font-family: 'Handlee', cursive;*/
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1rem;
-
-
-    background-color: #3e5586;
+background-color: #3e5586;
     border-radius: 15px;
     font-family: 'Handlee', cursive;
-
 }
 
 #fondo {
@@ -100,7 +97,6 @@ font-family: 'Handlee', cursive;*/
     justify-content: space-between;
     width: 30px;
     height: 21px;
-
 }
 
 .toggle-button .bar {
@@ -114,15 +110,12 @@ font-family: 'Handlee', cursive;*/
 main {
     padding: 50px;
     background-image: url(../imagenes/fondomacetas.jpg);
-
 }
 
 .grid-container-portada {
     display: grid;
     grid-template-rows: 1fr;
     gap: 1rem;
-
-
 }
 
 .grid-item-portada {
@@ -134,7 +127,6 @@ main {
     border-radius: 30px;
     margin-top: 1rem;
     padding: 1rem;
-
 }
 
 .portada {
@@ -144,7 +136,6 @@ main {
     border-width: 5px;
     width: 70%;
     height: 70%;
-
 }
 
 /*FOOTER*/
@@ -178,8 +169,6 @@ footer {
 #fondo:hover {
     background-color: #607123;
     color: #fff;
-
-
 }
 
 .animate__flip {
@@ -195,7 +184,6 @@ h1 {
     font-family: 'Handlee', cursive;
     background-color: rgba(138, 151, 91, 0.9);
     font-size: 3em;
-
 }
 
 .bienvenida {
@@ -204,8 +192,6 @@ h1 {
     font-family: 'Handlee', cursive;
     font-size: 2em;
     text-align: center;
-
-
 }
 
 /*QuienesSomos*/
@@ -266,8 +252,6 @@ h1 {
     align-items: center;
     row-gap: 2rem;
     padding: 1rem;
-
-
 }
 
 iframe {
@@ -277,7 +261,6 @@ iframe {
 .sucursal h3,
 h2 {
     text-decoration: underline;
-
 }
 
 /*Contacto*/
@@ -305,7 +288,6 @@ button {
     font-size: 1rem;
     font-family: 'Fugaz One', cursive;
     color: #fff;
-
 }
 
 button:hover {
@@ -341,8 +323,6 @@ form,
     padding: 10px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .servicios {
@@ -360,8 +340,6 @@ form,
 .interior {
     grid-area: interior;
     padding: 10px;
-    padding: 10px;
-
 }
 
 .exterior {
@@ -372,7 +350,6 @@ form,
 .semillas {
     grid-area: semillas;
     padding: 10px;
-
 }
 
 .fuentes {
@@ -402,9 +379,6 @@ form,
     font-family: 'Fugaz One', cursive;
     margin: 10px 30px;
     padding: 20px;
-
-
-
 }
 
 .productos-container h2,
@@ -414,7 +388,6 @@ form,
     font-size: larger;
     margin-top: 20px;
     margin: 30px 0;
-
 }
 
 .productos-container img {
@@ -424,16 +397,11 @@ form,
     border-radius: 10px;
     margin: 0.5rem;
     border: 3px solid #3e5586;
-
-
-
-
 }
 
 .productos-container img:hover {
     transform: translate(25px) scale(1.4);
     transition-duration: 150ms;
-
 }
 
 /*TIENDA*/
@@ -449,7 +417,6 @@ form,
     align-items: center;
     justify-content: center;
     border: 5px solid #607123;
-
 }
 
 
@@ -462,14 +429,11 @@ form,
     padding: 20px;
     color: #0c3a0c;
     object-fit: fill;
-
 }
 
 #planta {
     width: 100%;
     height: 200px;
-
-
 }
 
 #app {
@@ -479,7 +443,6 @@ form,
     font-family: 'Fugaz One', cursive;
     font-size: 1rem;
     text-align: center;
-
 }
 
 #carrito {
@@ -494,11 +457,9 @@ form,
     border-radius: 10px;
     list-style-type: none;
     font-family: 'Fugaz One', cursive;
-
-
 }
 
-/*RESPONSIVO PARA EL HOME*/
+/*RESPONSIVO*/
 
 @media screen and (max-width: 767px) {
     .navbar {
@@ -553,34 +514,38 @@ form,
         border: #3e5586 solid 5px;
         border-radius: 50px;
         margin: 1rem;
-        gap:10px;
+        gap: 10px;
         align-self: center;
-        object-fit:fill;
-        
+        object-fit: fill;
+
     }
+
     .container-jardineros h2 {
         padding: 0 1rem;
         font-size: 1.5rem;
         padding-top: 30px;
     }
+
     .sucursal {
         padding: 10px;
     }
 
-    
+
     iframe {
         width: 100%;
-        height: 300px; 
+        height: 300px;
     }
+
     .servicios {
         font-size: 14px;
     }
 
-    .productos-container{
+    .productos-container {
         display: flex;
         flex-direction: column;
-        
+
     }
+
     .interior img,
     .exterior img,
     .semillas img,
@@ -590,17 +555,20 @@ form,
         width: 100%;
         height: auto;
     }
-    #comercio{
+
+    #comercio {
         font-size: 15px;
     }
-    .tienda{
+
+    .tienda {
         font-size: 1.5rem;
         margin-left: 70px;
         width: 150px;
         padding: 30px;
         display: block;
     }
-    form{
+
+    form {
         margin: 0 20px;
         font-size: small;
     }
@@ -654,48 +622,59 @@ form,
         height: 100%;
         width: 100%;
     }
-    .jardinero{
+
+    .jardinero {
         width: 30vw;
         height: 30vh;
         object-fit: cover;
         margin-left: 50px;
     }
-    .bienvenida{
+
+    .bienvenida {
         font-size: 1.5rem;
     }
-    .animate__flip{
+
+    .animate__flip {
         font-size: 2.5rem;
     }
+
     .servicios {
         font-size: 18px;
     }
-    .productos-container{
+
+    .productos-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        
+
     }
-    .tienda{
+
+    .tienda {
         width: 300px;
         margin-left: 180px;
         display: block;
     }
-    #app{
+
+    #app {
         display: block;
         margin-left: 50px;
-       
+
     }
-    #carrito{
+
+    #carrito {
         display: block;
         margin-left: 100px;
         padding: 10px 0;
         width: 350px;
     }
-    .tarjeta{
-        margin-left: 130px;;
+
+    .tarjeta {
+        margin-left: 130px;
+        ;
     }
-    form{
+
+    form {
         margin: 0 20px;
         font-size: medium;
     }
@@ -740,9 +719,6 @@ form,
     .navbar-links li a {
         display: inline-block;
         vertical-align: middle;
-
-
-
     }
 
     .navbar-links li a,
@@ -891,24 +867,28 @@ form,
 
 
     }
-    .jardinero{
+
+    .jardinero {
         width: 30vw;
         height: 30vh;
         object-fit: cover;
         margin-left: 50px;
     }
-    .tienda{
+
+    .tienda {
         margin-left: 300px;
     }
-    #carrito{
+
+    #carrito {
         padding: 10px 30px;
     }
-    .productos-container{
+
+    .productos-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        
+
     }
 
 
